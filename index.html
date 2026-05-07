@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Vision AI | Machine Learning App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <header class="glass-panel">
+            <h1>RPS Vision AI</h1>
+            <p class="subtitle">Inteligencia Artificial aplicada al clásico Piedra, Papel o Tijera</p>
+            <a href="#" class="cta-button" target="_blank">🚀 Probar la Aplicación</a>
+            <p class="small-text">(Reemplaza '#' en index.html con tu enlace de Streamlit)</p>
+        </header>
+
+        <section class="glass-panel">
+            <h2>🎯 El Problema y El Objetivo</h2>
+            <p><strong>Problema:</strong> Enseñar a una computadora a reconocer gestos humanos de forma visual no es trivial. Requiere procesar variaciones complejas en iluminación, ángulos y formas de las manos en tiempo real.</p>
+            <p><strong>Objetivo:</strong> Construir un modelo de <em>Deep Learning</em> capaz de clasificar imágenes en tres categorías (Piedra, Papel o Tijera), demostrando el poder de las Redes Neuronales Convolucionales (CNN) en el campo de la Visión por Computadora.</p>
+        </section>
+
+        <section class="glass-panel">
+            <h2>⚙️ El Ciclo de Vida del Modelo</h2>
+            <div class="lifecycle-steps">
+                <div class="step">
+                    <h3>1. Recolección</h3>
+                    <p>Captura de datos mediante imágenes de gestos desde múltiples ángulos para crear un dataset robusto.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Entrenamiento</h3>
+                    <p>Uso de TensorFlow y Keras (Deep Learning) para extraer patrones visuales de las imágenes.</p>
+                </div>
+                <div class="step">
+                    <h3>3. Evaluación</h3>
+                    <p>Pruebas de validación para garantizar un alto porcentaje de confianza en la predicción.</p>
+                </div>
+                <div class="step">
+                    <h3>4. Despliegue</h3>
+                    <p>Creación de una interfaz interactiva con Streamlit Cloud para consumo del usuario final.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-panel">
+            <h2>📊 Tabla de Clasificación</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Descripción (Gestos)</th>
+                        <th>Gana contra</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>🪨 Piedra</td>
+                        <td>Mano completamente cerrada en puño.</td>
+                        <td>Tijera</td>
+                    </tr>
+                    <tr>
+                        <td>📄 Papel</td>
+                        <td>Mano abierta, palma extendida.</td>
+                        <td>Piedra</td>
+                    </tr>
+                    <tr>
+                        <td>✂️ Tijera</td>
+                        <td>Dedos índice y medio extendidos en "V".</td>
+                        <td>Papel</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="glass-panel">
+            <h2>👨‍💻 Desarrolladores y Propósito</h2>
+            <p><strong>Desarrollado por:</strong> Especialista en Machine Learning / Data Engineering.</p>
+            <p><strong>Propósito:</strong> Este proyecto sirve como puente entre la teoría algorítmica y las aplicaciones reales de Inteligencia Artificial. Demuestra cómo se puede encapsular un modelo entrenado (`.h5`) y ponerlo a disposición pública mediante una arquitectura distribuida (Frontend estático y App interactiva).</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 RPS Vision AI Project</p>
+        </footer>
+    </div>
+</body>
+</html>

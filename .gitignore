@@ -1,0 +1,20 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de Streamlit
+.streamlit/
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Si el modelo pesa más de 100MB, se recomienda usar Git LFS y descomentar la siguiente línea
+# keras_model.h5
